@@ -1,0 +1,37 @@
+# ===== Altium =====
+
+History/
+__Previews/
+Project Logs for *
+Project Outputs for *
+Project Logs/
+Outputs/
+
+*.bak
+*.log
+*.tmp
+*.REP
+*.Save
+*.zip
+*.pdf
+*.cam
+*.OutJob
+*.csv
+
+# Fichiers auto générés
+*.~*
+*.ddb
+*.dat
+
+# ===== Windows =====
+
+Thumbs.db
+Desktop.ini
+
+# ===== VS Code =====
+
+.vscode/
+
+# ===== Python =====
+
+__pycache__/
