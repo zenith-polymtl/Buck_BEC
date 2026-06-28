@@ -84,7 +84,7 @@ GenerateClassCluster=0
 DocumentUniqueId=OSOAWVLX
 
 [Document3]
-DocumentPath=Buck_5V.BomDoc
+DocumentPath=Buck_5V_12S.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
