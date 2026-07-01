@@ -24,35 +24,38 @@
 
 \### Input
 
-\- Minimum input voltage:  
+\- Minimum input voltage: 5.5V
 
-\- Maximum input voltage:  
+\- Maximum input voltage:  28V
 
-\- Recommended operating range:  
+\- Recommended operating range: 
+4.5V to 28V
 
 \- Input type: (LiPo 2S–6S, 12V rail, USB, etc.)  
+Lipo 2S-6S
 
-\- Maximum input surge tolerated:  
-
-
+\- Maximum input surge tolerated: 
+32V
 
 \### Output
 
-\- Nominal output voltage:   
+\- Nominal output voltage:  
+5V to 12V ()
 
-\- Maximum continuous current:  
+\- Maximum continuous current: 
+10 A
 
 \- Peak current capability:   
 
 \- Short‑circuit protection: Yes / No  
+Yes (Overvoltage Protection activated when voltage at 125% of the target input voltage)
 
 \- Over‑current protection: Yes / No  
+Yes (UVLO Protection)
 
 \- Thermal shutdown: Yes / No  
 
 \- Reverse polarity protection: Yes / No  
-
-
 
 \---
 
@@ -75,6 +78,8 @@
 \- PCB dimensions:  
 
 \- Board thickness:  
+Top layer & Bottom layer : 1 oz
+Internal layers (2 and 3) : 0.5 
 
 \- Weight:  
 
