@@ -17,6 +17,11 @@
 \---
 
 
+\## Precisions over components choices
+
+The usage of the 3296W-1-104LF 100k trimmer potentiometer over other types of potentiometer is for its stability and precise gear. It can support the drone vibrations during flights and prevent unwanted changes in voltages that can damage the other gadgets on board.
+
+
 
 \## ⚡ Electrical Specifications
 
@@ -75,7 +80,7 @@ Yes (UVLO Protection)
 
 \## 📏 Mechanical \& Mounting Details
 
-\- PCB dimensions:  
+\- PCB dimensions: 76mm x 76 mm
 
 \- Board thickness:  
 Top layer & Bottom layer : 1 oz
@@ -83,9 +88,9 @@ Internal layers (2 and 3) : 0.5
 
 \- Weight:  
 
-\- Mounting hole count:  
+\- Mounting hole count: 4 
 
-\- Mounting hole diameter:  
+\- Mounting hole diameter: 3.5mm 
 
 \- Mounting hole spacing: (center‑to‑center distances in X/Y)  
 
@@ -127,7 +132,7 @@ Internal layers (2 and 3) : 0.5
 
 \## 📡 EMI / EMC Considerations
 
-\- Switching frequency:  
+\- Switching frequency: 500 kHz
 
 \- Spread‑spectrum modulation: Yes / No  
 
@@ -211,7 +216,7 @@ Practical advice for embedded designers:
 
 \## 📚 References
 
-\- Regulator IC datasheet:  
+\- Regulator IC datasheet:  https://www.ti.com/lit/ds/symlink/tps56637.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1783177115730&ref_url=https%253A%252F%252Fwww.google.com%252F
 
 \- Application notes:  
 
