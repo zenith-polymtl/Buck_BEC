@@ -1,9 +1,4 @@
-\# Module Name
-
-\*(e.g., Buck 12V → 5V 3A, BEC 2S–6S 5V/9V)\*
-
-
-
+\# Buck 12S -> 5V
 \---
 
 
@@ -12,6 +7,8 @@
 
 (Short description of the module, its purpose, regulation type (buck, synchronous buck, BEC switching/linear), and intended use cases in embedded systems)
 
+
+Design a buck converter on a PCB to step down a nominal 12S DC voltage (44.4 V) to a stable 5 V DC output. Priority is placed on reliability, output stability, design robustness, and ease of integration for future drones.
 
 
 \---
