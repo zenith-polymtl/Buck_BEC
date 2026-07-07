@@ -8,7 +8,7 @@
 (Short description of the module, its purpose, regulation type (buck, synchronous buck, BEC switching/linear), and intended use cases in embedded systems)
 
 
-Design a buck converter on a PCB to step down a nominal 12S DC voltage (44.4 V) to a stable 5 V DC output. Priority is placed on reliability, output stability, design robustness, and ease of integration for future drones.
+Synchronous buck converter on a PCB to step down a nominal 12S DC voltage (44.4 V) to a stable 5 V DC output. Priority is placed on reliability, output stability, design robustness and ease of integration. Could be useful to power low voltage electronics in a drone, such as a FC, GPS, RC receiver, onboard computer, etc.
 
 
 \---
@@ -21,33 +21,33 @@ Design a buck converter on a PCB to step down a nominal 12S DC voltage (44.4 V) 
 
 \### Input
 
-\- Minimum input voltage:  
+\- Minimum input voltage:  37.0 V
 
-\- Maximum input voltage:  
+\- Maximum input voltage:  65.0 V
 
-\- Recommended operating range:  
+\- Recommended operating range:  40.0 V - 60.0 V
 
-\- Input type: (LiPo 2S–6S, 12V rail, USB, etc.)  
+\- Input type: 12S, XT90-S connector
 
-\- Maximum input surge tolerated:  
+\- Maximum input surge tolerated:  72.0 V
 
 
 
 \### Output
 
-\- Nominal output voltage:   
+\- Nominal output voltage:   5.0 V
 
-\- Maximum continuous current:  
+\- Maximum continuous current:  6.0 A
 
-\- Peak current capability:   
+\- Peak current capability:   ????
 
-\- Short‑circuit protection: Yes / No  
+\- Short‑circuit protection: Yes 
 
-\- Over‑current protection: Yes / No  
+\- Over‑current protection: Yes 
 
-\- Thermal shutdown: Yes / No  
+\- Thermal shutdown: Yes 
 
-\- Reverse polarity protection: Yes / No  
+\- Reverse polarity protection: No  
 
 
 
@@ -57,7 +57,7 @@ Design a buck converter on a PCB to step down a nominal 12S DC voltage (44.4 V) 
 
 \## 🧊 Thermal Characteristics    
 
-\- Maximum recommended operating temperature:\*\*  
+\- Maximum recommended operating temperature:\*\*  30 °C (ambient) 
 
 \- Cooling requirements: (none, airflow required, heatsink recommended)  
 
