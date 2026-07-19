@@ -37,9 +37,9 @@ Synchronous buck converter on a PCB to step down a nominal 12S DC voltage (44.4 
 
 \- Nominal output voltage:   5.0 V
 
-\- Maximum continuous current:  6.0 A
+\- Maximum continuous current:  8.0 A
 
-\- Peak current capability:   ????
+\- Peak current capability:   10.0 A
 
 \- Short‑circuit protection: Yes 
 
@@ -75,9 +75,9 @@ Synchronous buck converter on a PCB to step down a nominal 12S DC voltage (44.4 
 
 \- Weight:  
 
-\- Mounting hole count:  
+\- Mounting hole count:  4
 
-\- Mounting hole diameter:  
+\- Mounting hole diameter:  1,5 mm for inputs, 1,3 mm for outputs (with 0,5 mm copper margin)
 
 \- Mounting hole spacing: (center‑to‑center distances in X/Y)  
 
@@ -85,7 +85,7 @@ Synchronous buck converter on a PCB to step down a nominal 12S DC voltage (44.4 
 
 \- Connector types: (JST‑PH, XT30, solder pads, screw terminals)  
 
-\- Recommended wire gauge:  
+\- Recommended wire gauge: 16 awg wires for input, 18 awg wires for output (stranded copper)
 
 
 
@@ -204,10 +204,14 @@ Practical advice for embedded designers:
 \## 📚 References
 
 \- Regulator IC datasheet:  
+- https://www.ti.com/lit/ds/symlink/lm65680.pdf?ts=1784018828924&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLM65680
 
 \- Application notes:  
 
 \- External documentation:  
+- https://www.digikey.com/en/articles/conducted-and-radiated-emissions-reduction-techniques-for-power-modules
+- https://www.ti.com/document-viewer/lit/html/SSZT179
+
 
 
 
