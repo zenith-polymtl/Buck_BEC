@@ -77,7 +77,7 @@ Synchronous buck converter on a PCB to step down a nominal 12S DC voltage (44.4 
 
 \- Mounting hole count:  4
 
-\- Mounting hole diameter:  1,5 mm for inputs, 1,3 mm for outputs (with 0,5 mm copper margin)
+\- Mounting hole diameter:  1,5 mm for inputs, 1,3 mm for outputs (with 1,3 mm copper margin)
 
 \- Mounting hole spacing: (center‑to‑center distances in X/Y)  
 
