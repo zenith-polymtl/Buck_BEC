@@ -214,3 +214,6 @@ Practical advice for embedded designers:
 
 
 
+ Note!!!!: Pour le voltage d'entrée, il est assumé que le Buck prendra de 25.2V jusqu'à 18V, sans quoi cela ne fonctionnera pas. Ceci a été utilisé pour calculer les valeurs de R1 et R2 à utiliser, selon la section 7.3.4 du datasheet du buck https://www.ti.com/lit/ds/symlink/tps56637.pdf 
+ 
+ Les autres valeurs utilisés sont celles déjà présente
