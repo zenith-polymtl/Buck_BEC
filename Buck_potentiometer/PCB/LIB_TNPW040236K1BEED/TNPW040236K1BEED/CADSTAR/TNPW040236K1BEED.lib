@@ -1,0 +1,18 @@
+.TNPW040236K1BEED :1 ;Res Thin Film 0402 36.1K Ohm 0.1% 0.07W +/-25ppm/C Sulfur Resistant Pad SMD T/R Medical Automotive AEC-Q200
+RESC1005X40N
+*STM R
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN TNPW040236K1BEED
+~!Manufacturer_Name (Vishay)
+~!Manufacturer_Part_Number (TNPW040236K1BEED)
+~!Mouser Part Number (71-TNPW040236K1BEED)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Vishay-Dale/TNPW040236K1BEED?qs=acBVhj9v9XUFtfIKA92T4A%3D%3D)
+~!Arrow Part Number (TNPW040236K1BEED)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/tnpw040236k1beed/vishay?utm_currency=USD&region=nac)
+~!Link Datasheet (https://www.vishay.com/docs/28758/tnpw_e3.pdf)
+~!Height (0.4mm)
+~!3D_Model (TNPW040236K1BEED)
+TNPW040236K1BEED
+1.1!U 2.1!U 

@@ -1,0 +1,86 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "TNPW040236K1BEED"
+   (description "Res Thin Film 0402 36.1K Ohm 0.1% 0.07W +/-25ppm/C Sulfur Resistant Pad SMD T/R Medical Automotive AEC-Q200")
+   (family "RES")
+   (package "RESC1005X40N")
+   (attribute "Datasheet Link" "https://www.vishay.com/docs/28758/tnpw_e3.pdf")
+   (attribute "Geometry.Height" "0.4mm")
+   (attribute "Manufacturer_Name" "Vishay")
+   (attribute "Manufacturer_Part_Number" "TNPW040236K1BEED")
+   (attribute "Mouser Part Number" "71-TNPW040236K1BEED")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/TNPW040236K1BEED?qs=acBVhj9v9XUFtfIKA92T4A%3D%3D")
+   (attribute "Arrow Part Number" "TNPW040236K1BEED")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/tnpw040236k1beed/vishay?utm_currency=USD&region=nac")
+   (gate
+    (symbol "TNPW040236K1BEED")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "TNPW040236K1BEED"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 50) (pt 500 50) (pt 500 -50) (pt 200 -50) (pt 200 50) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 700 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "RESC1005X40N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -1.15 0.55)
+      (pt 1.15 0.55)
+      (pt 1.15 -0.55)
+      (pt -1.15 -0.55)
+      (pt -1.15 0.55))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -0.5 0.25)
+      (pt 0.5 0.25)
+      (pt 0.5 -0.25)
+      (pt -0.5 -0.25)
+      (pt -0.5 0.25))))
+   (leg 1 (pt -0.55 0) (padstack 0))
+   (leg 2 (pt 0.55 0) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.6 0.7 0 0 0))
+   )
+   (model "TNPW040236K1BEED.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

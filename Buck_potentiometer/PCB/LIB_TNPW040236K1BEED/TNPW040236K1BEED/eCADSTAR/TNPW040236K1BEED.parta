@@ -1,0 +1,68 @@
+(Japanese_coding: sjis)
+(function "ECS_1329394"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2026-07-06-11:25:37)
+    (utime 2026-07-06-11:25:37)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "TNPW040236K1BEED")
+)
+
+
+(pinAssign "ECS_1329394"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2026-07-06-11:25:37)
+    (utime 2026-07-06-11:25:37)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_1329394")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "TNPW040236K1BEED")
+)
+
+
+(part "TNPW040236K1BEED"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2026-07-06-11:25:37)
+    (utime 2026-07-06-11:25:37)
+    (packageRef "TNPW040236K1BEED")
+    (pinAssignRef "ECS_1329394")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "R")
+    (property "description" "Res Thin Film 0402 36.1K Ohm 0.1% 0.07W +/-25ppm/C Sulfur Resistant Pad SMD T/R Medical Automotive AEC-Q200")
+    (property "Manufacturer_Name" "Vishay")
+    (property "Manufacturer_Part_Number" "TNPW040236K1BEED")
+    (property "Mouser_Part_Number" "71-TNPW040236K1BEED")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/TNPW040236K1BEED?qs=acBVhj9v9XUFtfIKA92T4A%3D%3D")
+    (property "Arrow_Part_Number" "TNPW040236K1BEED")
+    (property "Arrow_Price/Stock" "https://www.arrow.com/en/products/tnpw040236k1beed/vishay?utm_currency=USD&region=nac")
+    (property "Datasheet_Link" "https://www.vishay.com/docs/28758/tnpw_e3.pdf")
+    (property "compAreaTopHeight" 0.4)
+)
+
+
