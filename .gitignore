@@ -17,6 +17,7 @@ Outputs/
 *.cam
 *.OutJob
 *.csv
+*.PrjPcbStructure
 
 # Fichiers auto générés
 *.~*
